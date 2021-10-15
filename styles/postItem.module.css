@@ -1,0 +1,46 @@
+.post {
+  padding: 2rem;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #f9f8fa;
+}
+.post:hover {
+  border: 1px solid #3b5998;
+}
+
+.title {
+  color: #3b5998;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Helvetica now display";
+}
+
+.container {
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 1px 1px 2px #f9f8fa;
+  border-radius: 10px;
+}
+.postDetailTitle {
+  color: #3b5998;
+  font-size: 27px;
+  font-weight: 800;
+  font-family: Helvetica;
+}
+.postBody {
+  font-size: 16px;
+}
+
+.backBtn {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ccc;
+  padding: 0.5rem;
+  color: #333;
+}
